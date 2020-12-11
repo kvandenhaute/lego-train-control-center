@@ -1,5 +1,3 @@
 # https://github.com/browserslist/browserslist#readme
 
->= 5%
-last 2 versions
-not dead
+last 1 chrome version
