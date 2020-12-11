@@ -1,0 +1,11 @@
+.idea
+*.iml
+
+__sapper__
+node_modules
+
+coverage
+test-reports
+
+src/*.js
+src/*.js.map
