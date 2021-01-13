@@ -1,14 +1,25 @@
-<style>
-	main {
-		position: relative;
-		max-width: 56em;
-		background-color: white;
-		padding: 2em;
-		margin: 0 auto;
-		box-sizing: border-box;
-	}
-</style>
-
+<header>
+	<img src="/lego.svg" alt="LEGO">
+</header>
 <main>
 	<slot></slot>
 </main>
+
+<style global lang="scss">
+	@import 'src/assets/scss/main';
+
+	header {
+		grid-area: header;
+		padding: .5rem;
+		background-color: $lego-yellow;
+	}
+
+	main {
+		grid-area: main;
+		padding: .5rem;
+	}
+
+	img {
+		height: 50px;
+	}
+</style>
